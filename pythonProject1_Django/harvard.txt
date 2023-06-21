@@ -1,0 +1,79 @@
+HTTP Status Codes:
+200 OK
+301 Moved Permanently
+403 Forbidden
+404 Not Found
+500 Internal Server Error
+
+Django web framework 
+pip3 install Django
+
+create a project:
+django-admin startproject PROJETO
+
+there's files inside: 
+
+manage.py: we're going to use to execute commands on this Django Project
+
+settings.py: important settings contains important configuration settings to
+our Django application. it comes preloaded with a couple of default settings,
+but we want to change them to be able to add features to our application.or make
+some modifications to how the applications behaves.
+
+urls.py: a sort of table of contents for our web application, that on any
+given web application, on a website, there are number of different URLs or
+routes that you can visit. (ex: Google/images, Google/search)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python manage.py runserver - run this web server.
+
+One project may have multiple applications within it.
